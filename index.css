@@ -7,6 +7,7 @@
 body{
     text-align: center;
     color: black;
+    background-color: rgb(233, 243, 247);
 }
 
 .main-header {
@@ -81,7 +82,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 90vh; 
     background-image: url("https://findmyhostel.in/static/media/cover-image-3.ea89e80e.jpg");
     width: 100%;
     background-size: cover;
@@ -151,7 +152,7 @@ color: grey;
 
 
 
-@media (max-width:900px){
+@media (max-width:900px) {
 
     .searchbar input[type="text"] {
         width: 400px;
@@ -177,7 +178,164 @@ color: grey;
     .searchbar .text2 {
        margin-top: 20px;
         margin-left: 0px;
-        width: auto;
-    }
+        width: auto;
+        }
 }
 
+@media (max-width:425px){
+    .searchbar select {
+         width: 300px;
+     }
+
+     .searchbar input[type="text"] {
+        width: 300px;
+    }
+
+}
+
+@media (max-width:800px){
+    #aboutus .teaminfo .box img{
+        height: 140px;
+        width: 140px;
+    }
+
+    #aboutus .teaminfo .box h6{
+        font-size: 17px;
+    }
+    
+}
+
+@media (max-width:950px){
+    #aboutus .left .subtext{
+        font-size: 15px;
+    }
+    
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    color: rgb(35, 35, 121) ;
+    font-size: 2.15rem;
+    font-weight:600;
+    text-decoration: underline;
+}
+
+
+#aboutus {
+    display: flex;
+    gap: 10px;
+}
+
+.aboutus-card{
+    flex: 1;
+}
+
+#aboutus .maintext{
+    font-size: 1.75rem;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: rgb(60, 60, 61);
+    font-weight:600;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 50px;
+    text-decoration: underline;
+
+}
+
+#aboutus .subtext{
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-wrap: wrap;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(73, 70, 70);
+    
+
+}
+
+.team{
+    font-size: 1.75rem;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: rgb(60, 60, 61);
+    font-weight:600;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.teaminfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.teaminfo .box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.teaminfo .box h6{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.teaminfo .box img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+}
+.popular-heading {
+    font-size: 1.5rem;
+    color: rgb(35, 35, 121) ;
+    font-size: 2.15rem;
+    font-weight:600;
+    text-decoration: underline;
+}
+.popular-card {
+    flex : 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 260px;
+    min-width: 230px;
+    margin: 50px 20px 0px 20px;
+}
+
+.popular-container {
+    padding: 60px 40px;
+}
+.pop-image {
+    /* width: 0%; */
+    height: 200px;
+}
+
+.popular-card > div > img {
+    /* object-fit: contain; */
+    background-repeat: no-repeat;
+    height: 90%;
+    max-width: 100%;
+    border-radius: 20px 0px;
+    
+}
+
+.popular-name {
+    display: flex;
+    padding: 0px 20px; 
+}
