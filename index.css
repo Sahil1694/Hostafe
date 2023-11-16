@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     color: black;
     background-color: rgb(233, 243, 247);
@@ -20,7 +20,7 @@ body{
     background: white;
     z-index: 31;
     padding: 0 40px;
-    box-shadow: 0 2px 4px rgba(7,9,13,.1);
+    box-shadow: 0 2px 4px rgba(7, 9, 13, .1);
 }
 
 .logo-holder {
@@ -31,9 +31,9 @@ body{
 }
 
 .scale-image {
-    scale: unset!important;
-    width: 150px!important;
-    height: auto!important;
+    scale: unset !important;
+    width: 150px !important;
+    height: auto !important;
     -webkit-transform: translateY(-14px);
     transform: translateY(-14px);
 }
@@ -55,7 +55,7 @@ body{
     cursor: pointer;
 }
 
-.sign-up-btn:hover{
+.sign-up-btn:hover {
     background-color: rgb(169, 172, 211);
 }
 
@@ -82,7 +82,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh; 
+    height: 90vh;
     background-image: url("https://findmyhostel.in/static/media/cover-image-3.ea89e80e.jpg");
     width: 100%;
     background-size: cover;
@@ -92,7 +92,7 @@ body{
 .text1 {
     color: rgb(35, 35, 121);
     text-align: center;
-    font-size:40px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -126,12 +126,12 @@ body{
     font-size: medium;
 }
 
-.searchbar .hostel{
+.searchbar .hostel {
     margin-left: 30px;
 }
 
-.searchbar select option{
-color: grey;
+.searchbar select option {
+    color: grey;
 }
 
 .searchbar .text2 {
@@ -146,7 +146,7 @@ color: grey;
     cursor: pointer;
 }
 
-.searchbar .text2 i{
+.searchbar .text2 i {
     margin-left: 14px;
 }
 
@@ -158,69 +158,38 @@ color: grey;
         width: 400px;
     }
 
-    .searchbar{
+    .searchbar {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    
+
     .searchbar select {
-       margin-top: 20px;
-        margin-left:0px;
+        margin-top: 20px;
+        margin-left: 0px;
         width: 400px;
     }
 
-    .searchbar .hostel{
+    .searchbar .hostel {
         margin-left: 0px;
     }
 
     .searchbar .text2 {
-       margin-top: 20px;
+        margin-top: 20px;
         margin-left: 0px;
         width: auto;
-        }
+    }
 }
 
-@media (max-width:425px){
-    .searchbar select {
-         width: 300px;
-     }
-
-     .searchbar input[type="text"] {
-        width: 300px;
-    }
-
-}
-
-@media (max-width:800px){
-    #aboutus .teaminfo .box img{
-        height: 140px;
-        width: 140px;
-    }
-
-    #aboutus .teaminfo .box h6{
-        font-size: 17px;
-    }
-    
-}
-
-@media (max-width:950px){
-    #aboutus .left .subtext{
-        font-size: 15px;
-    }
-    
-}
-
-
-.heading{
+.heading {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 70px;
-    color: rgb(35, 35, 121) ;
+    color: rgb(35, 35, 121);
     font-size: 2.15rem;
-    font-weight:600;
+    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -230,24 +199,24 @@ color: grey;
     gap: 10px;
 }
 
-.aboutus-card{
+.aboutus-card {
     flex: 1;
 }
 
-#aboutus .maintext{
+#aboutus .maintext {
     font-size: 1.75rem;
     margin-top: 70px;
     margin-bottom: 50px;
     color: rgb(60, 60, 61);
-    font-weight:600;
+    font-weight: 600;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin-left: 50px;
     text-decoration: underline;
 
 }
 
-#aboutus .subtext{
+#aboutus .subtext {
     font-size: 20px;
     margin-left: 0px;
     margin-right: 10px;
@@ -255,41 +224,41 @@ color: grey;
     margin-bottom: 50px;
     text-align: center;
     color: rgb(73, 70, 70);
-    
+
 
 }
 
-.team{
+.team {
     font-size: 1.75rem;
     margin-top: 70px;
     margin-bottom: 50px;
     color: rgb(60, 60, 61);
-    font-weight:600;
+    font-weight: 600;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin-left: 50px;
     text-decoration: underline;
 }
 
-.teaminfo{
+.teaminfo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+
 }
 
-.teaminfo .box{
+.teaminfo .box {
     display: flex;
     flex-direction: column;
 
 }
 
-.teaminfo .box h6{
+.teaminfo .box h6 {
     font-size: 17px;
     margin-bottom: 20px;
 }
 
-.teaminfo .box img{
+.teaminfo .box img {
     height: 130px;
     width: 130px;
     border-radius: 50%;
@@ -302,15 +271,17 @@ color: grey;
     flex-wrap: wrap;
     /* gap: 10px; */
 }
+
 .popular-heading {
     font-size: 1.5rem;
-    color: rgb(35, 35, 121) ;
+    color: rgb(35, 35, 121);
     font-size: 2.15rem;
-    font-weight:600;
+    font-weight: 600;
     text-decoration: underline;
 }
+
 .popular-card {
-    flex : 1;
+    flex: 1;
     background-color: #ffffff;
     border-radius: 10px;
     height: 260px;
@@ -321,21 +292,56 @@ color: grey;
 .popular-container {
     padding: 60px 40px;
 }
+
 .pop-image {
     /* width: 0%; */
     height: 200px;
 }
 
-.popular-card > div > img {
+.popular-card>div>img {
     /* object-fit: contain; */
     background-repeat: no-repeat;
     height: 90%;
     max-width: 100%;
     border-radius: 20px 0px;
-    
+
 }
 
 .popular-name {
     display: flex;
-    padding: 0px 20px; 
+    padding: 0px 20px;
+}
+
+
+
+
+
+@media (max-width: 425px) {
+    .searchbar select {
+        width: 300px;
+    }
+
+    .searchbar input[type="text"] {
+        width: 300px;
+    }
+
+}
+
+@media (max-width:800px) {
+    #aboutus .teaminfo .box img {
+        height: 140px;
+        width: 140px;
+    }
+
+    #aboutus .teaminfo .box h6 {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:950px) {
+    #aboutus .left .subtext {
+        font-size: 15px;
+    }
+
 }
