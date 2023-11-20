@@ -25,17 +25,19 @@ body {
 
 .logo-holder {
     float: left;
-    height: 30px;
+    height: 20px;
     position: relative;
-    margin: auto auto auto 0;
+    margin: 15px auto auto 0;
 }
 
 .scale-image {
-    scale: unset !important;
-    width: 150px !important;
-    height: auto !important;
+    /* scale: unset !important; */
+    /* width: 150px; */
+    /* height: auto !important; */
     -webkit-transform: translateY(-14px);
     transform: translateY(-14px);
+
+
 }
 
 
